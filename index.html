@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>
+        我的个人主页
+    </title>
+    <style>
+        body { 
+            margin: 0;
+            padding:0; 
+            font-family: "微软雅黑", Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .top-nav {
+            background-color: #0066cc;
+            padding: 15px;
+            text-align: center;
+        }
+        .top-nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        .top-nav a:hover { color: #ffcc00;}
+        .content{
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px #ddd;
+        }
+        .avatar-box {
+            width:200px; 
+            height:200px; 
+            border-radius: 50%; 
+            margin: 0 auto; 
+            overflow: hidden; 
+            border: 5px solid #0066cc;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+            }
+        p {
+            line-height: 1.8;
+            color:#333;
+            font-size:16px;
+            margin: 15px 0;
+        }
+        .btn {
+            display:inline-block;
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0066cc;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="index.html">首页</a>
+        <a href="web/about.html">关于我</a>
+        <a href="web/hobby.html">我的爱好</a>
+        <a href="web/photo.html">我的相册</a>
+        <a href="web/myessay.html">我的随笔</a>
+        <a href="web/contact.html">联系我</a>
+    </div>
+    <div class="content">
+        <h1>欢迎来到我的主页</h1>
+        <div style="width:200px; height:200px; border-radius: 50%; maigin: 0auto; overflow: hidden; border: 5px solid #0066cc;">
+            <img src="image/avatar.jpg" alt="我的头像" class="avatar" style="width:100%; height:100%; object-fit: cover;">
+        </div>
+        <p>你好，我是曾子墨，华中科技大学计算机科学与技术专业的学生。</p>
+        <p>这是我用HTML和CSS制作的第一个个人网站,记录我的学习和生活。</p>
+        <a href="web/about.html" class="btn">了解更多关于我</a>
+    </div>
+    <footer>
+        <p>© 2025 曾子墨的个人网站 | 好好学习，天天向上</p>
+    </footer>
+</body>
+</html>

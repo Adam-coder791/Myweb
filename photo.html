@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viepoint" content="width=device-width, initial-scale=1.0">
+        <title>我的相册 - 曾子墨的个人主页</title>
+        <style>
+            body { 
+                margin: 0;
+                padding: 0; 
+                font-family: "微软雅黑", Arial, sans-serif;
+                background-color: #f9f9f9;
+            }
+            .top-nav {
+                background-color: #0066cc;
+                padding: 15px;
+                text-align: center;
+            }
+            .top-nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 16px;
+            }
+            .top-nav a:hover {
+                color: #ffcc00;
+            }
+            .content {
+                width: 90%;
+                max-width: 1000px;
+                margin: 30px auto;
+                padding: 20px;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: 0 0 10px #ddd;
+            }
+            h1 {
+                text-align: center;
+                color: #0066cc
+            }
+            p {
+                line-height: 1.8;
+                color:#333;
+                text-align: center;
+                font-size:16px;
+            }
+            .photo-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+                margin-top: 20px;
+            }
+            .photo-container img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                transition: transform 0.3s;
+                border: 2px solid #ddd;
+                border-radius: 5px;
+            }
+            .photo-container img:hover {
+                transform: scale(1.05);
+                border-color: #0066cc;
+            }
+            footer {
+                text-align: center;
+                padding: 20px;
+                background-color: #0066cc;
+                color: white;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top-nav">
+            <a href="../index.html">返回首页</a>
+            <a href="about.html">关于我</a>
+            <a href="hobby.html">我的爱好</a>   
+            <a href="photo.html">我的相册</a>
+            <a href="myessay.html">我的随笔</a>
+            <a href="contact.html">联系我</a>
+        </div>
+        <div class="content">
+            <h1>我的相册</h1>
+            <p>欢迎来到我的相册！这里展示了一些我生活中的精彩瞬间：</p>
+            <div class="photo-container">
+                <img src="../image/avator.jpg" width="200" alt="我的头像">
+                <img src="../image/bg.jpg" width="200" alt="公园">
+                <img src="../image/barbecue.jpg" width="200" alt="烧烤">
+                <img src="../image/copperpan.jpg" width="200" alt="铜锅">
+                <img src="../image/crab.jpg" width="200" alt="大闸蟹">
+                <img src="../image/dessert.jpg" width="200" alt="甜点">
+                <img src="../image/Dominant.jpg" width="200" alt="达美乐">
+                <img src="../image/ginkgoleaf.jpg" width="200" alt="银杏林">
+                <img src="../image/love1.jpg" width="200" alt="爱人1">
+                <img src="../image/love2.jpg" width="200" alt="爱人2">
+                <img src="../image/love3.jpg" width="200" alt="爱人3">
+                <img src="../image/Mstand.jpg" width="200" alt="Mstand咖啡">
+                <img src="../image/nightsnack.jpg" width="200" alt="烤冷面">
+                <img src="../image/starbucks.jpg" width="200" alt="星巴克">
+                <img src="../image/xihuayuan.jpg" width="200" alt="西华园">
+            </div>
+        </div> 
+        <footer>
+            <p>© 2025 曾子墨的个人网站 | 好好学习，天天向上</p>
+        </footer>
+    </body>
+</html>
